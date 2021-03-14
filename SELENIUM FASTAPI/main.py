@@ -34,8 +34,8 @@ def name_specific(name: str, iterat: int, model_name: ModelName):
 	url = "https://www.instagram.com/"
 	driver.get(url)
 	fb_login = driver.find_elements_by_xpath('//*[@id="loginForm"]/div/div[5]/button')[0].click()
-	c = driver.find_element_by_xpath('//*[@id="email"]').send_keys("adittadas00@gmail.com")
-	d = driver.find_element_by_xpath('//*[@id="pass"]').send_keys("jupyternishad@65")
+	c = driver.find_element_by_xpath('//*[@id="email"]').send_keys("#")
+	d = driver.find_element_by_xpath('//*[@id="pass"]').send_keys("#")
 	e = driver.find_element_by_xpath('//*[@id="loginbutton"]').click()
 	time.sleep(10)
 	driver.find_element_by_css_selector('button.aOOlW:nth-child(2)').click()
